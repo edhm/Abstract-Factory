@@ -16,7 +16,8 @@ public class MotocicletaElectrico extends Motocicleta {
 
     @Override
     public void mostrarCaracteristicas() {
-        System.out.println("Caracterisitcas de  la Motocicleta Electricaa");
+        System.out.println("Caracterisitcas de  la Motocicleta Electrica"
+                + "Modelo: "+modelo+"\nColor: "+color+"\nTipo: "+tipo+"\nPotencia: "+potencia);
     }
 
 }
